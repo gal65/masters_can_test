@@ -46,8 +46,6 @@ void setup(void)
   msg.buf[7] = 16;
   debug (F("setup complete"));
   //debug_pause();
-
-  Can1.write(msg);
 }
 
 
